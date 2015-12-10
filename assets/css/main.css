@@ -2641,6 +2641,10 @@ div#content article ul li
 	color: #800000;
 	font-weight:600;
 }
+div#daily h4
+{
+	padding: 0;
+}
 
 article h4
 {

@@ -1416,7 +1416,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 0.5em;
 	}
 
 /* Section/Article */
@@ -2606,6 +2606,21 @@ ul.sub
 {
 	font-size: 12px;
 }
+div#content article div
+{
+	line-height: 2em;
+}
+div#content article div#cold1
+{
+	float: left;
+	width: 300px;
+}
+
+div#content article div#cold2
+{
+	float: left;
+	width: 300px;
+}
 
 div#content article dl dd, article dd
 {
@@ -2626,3 +2641,4 @@ div#content article ul li
 	color: #4C1010;
 	font-weight:600;
 }
+

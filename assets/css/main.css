@@ -2410,6 +2410,11 @@
 				font-size: 13pt;
 				margin: 0 0 1em 0;
 			}
+			
+			div#content article div#cold
+			{
+				width: 300px;
+			}
 
 		/* Section/Article */
 
@@ -2610,6 +2615,10 @@ div#content article div
 {
 	line-height: 2em;
 }
+div#cold
+{
+	width: 600px;
+}
 div#content article div#cold1
 {
 	float: left;
@@ -2646,7 +2655,3 @@ div#daily h4
 	padding: 0;
 }
 
-article h4
-{
-	padding-left: 150px;
-}

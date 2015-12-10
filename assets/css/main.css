@@ -1318,7 +1318,7 @@
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #4C1010;
+		background-color: #800000;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
@@ -1349,7 +1349,7 @@
 	}
 
 	a {
-		color: #0090c5;
+		color: #696969;
 		text-decoration: underline;
 	}
 
@@ -1475,7 +1475,7 @@
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #0090c5;
+			border-color: #696969;
 		}
 
 	form input[type="text"],
@@ -2632,13 +2632,17 @@ div#content article dl dd, article dd
 div#content article dl dt, article dt
 {
 	margin-bottom: 0px;
-	color: #4C1010;
+	color: #800000;
 	font-weight:600;
 }
 
 div#content article ul li
 {
-	color: #4C1010;
+	color: #800000;
 	font-weight:600;
 }
 
+article h4
+{
+	padding-left: 150px;
+}

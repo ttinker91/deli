@@ -1922,7 +1922,7 @@
 				transition: background-color .25s ease-in-out;
 				font-weight: 800;
 				letter-spacing: 0.025em;
-				color: #696969;
+				color: #BDBDBD;
 				text-decoration: none;
 				border-radius: 6px;
 				padding: 0.5em 1em 0.5em 1em;
@@ -1941,7 +1941,7 @@
 			}
 
 			#nav ul li.current a {
-				background: #444;
+				background: black;
 				color: #fff;
 			}
 
@@ -2615,7 +2615,7 @@ div#content article div
 {
 	line-height: 2em;
 }
-div#cold
+div#cold, div#extras1 h4
 {
 	width: 600px;
 }
@@ -2626,6 +2626,19 @@ div#content article div#cold1
 }
 
 div#content article div#cold2
+{
+	float: left;
+	width: 300px;
+}
+
+div#content article div#cold div#extras1 ul li,div#content article div#cold div#extras2 ul li
+{
+	color: #696969;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+div#content article div#cold div#extras1, div#content article div#cold div#extras2
 {
 	float: left;
 	width: 300px;
@@ -2666,4 +2679,9 @@ div#salads table tbody tr td
 {
 	color: #800000;
 	font-weight: 600;
+}
+
+div#soups table tbody tr th
+{
+	text-align: left;
 }
